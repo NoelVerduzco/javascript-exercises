@@ -1,11 +1,10 @@
 const getTheTitles = function(books) {
-    const bookTitles = [];
 
-    books.map(book => {
-        bookTitles.push(book.title);
-    });
+    const bookTitles = books.map(book => book.title);
     
     return bookTitles;
+
+    // return books.map(book => book.title);
 };
 
 // Do not edit below this line
